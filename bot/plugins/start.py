@@ -13,13 +13,8 @@ async def start(c, m):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "Source 😒", url="https://github.com/odysseusmax/animated-lamp"
-                    ),
-                    InlineKeyboardButton("Project Channel", url="https://t.me/odbots"),
-                ],
-                [InlineKeyboardButton("My Father", url="https://t.me/odysseusmax")],
+                [InlineKeyboardButton("Owner", url="https://t.me/Shreeshiva323")],
+                [InlineKeyboardButton("Main Channel", url="https://t.me/BSHEGDE")],
             ]
         ),
     )
